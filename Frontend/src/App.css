@@ -1,0 +1,33 @@
+/* GLOBAL RESET */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* SCROLLBAR STYLING */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6e8efb;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(110, 142, 251, 0.1);
+}
+/* Enable scrolling for full app */
+html, body, #root {
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+/* Optional fix to ensure scroll works across layouts */
+.app-layout {
+  min-height: 100vh;
+  overflow: auto;
+}

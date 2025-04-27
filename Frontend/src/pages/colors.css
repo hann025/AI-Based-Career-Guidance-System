@@ -1,0 +1,22 @@
+:root {
+    /* Primary Colors */
+    --primary: #6e48aa;
+    --primary-light: #9d50bb;
+    --primary-dark: #4a1d96;
+    
+    /* Secondary Colors */
+    --secondary: #4776e6;
+    --secondary-light: #8e54e9;
+    
+    /* Backgrounds */
+    --bg-dark: #1a1a2e;
+    --bg-light: #f8f9fa;
+    
+    /* Text */
+    --text-light: #ffffff;
+    --text-dark: #16213e;
+    
+    /* Accents */
+    --accent: #00dbde;
+    --accent-gradient: linear-gradient(135deg, #00dbde 0%, #fc00ff 100%);
+  }
